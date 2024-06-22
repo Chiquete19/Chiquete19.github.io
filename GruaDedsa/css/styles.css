@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    /* background: url('fondo.jpg') center center fixed;  */
+    background-size: cover;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 41px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 409px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 12px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+
+}
+
+button:hover {
+    color: #000000;
+    background-color: #fff;
+    border: #000000 solid 1px;
+}
+
+.container {
+    display: flex;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.forgot-password{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forgot-password a{
+    color: #1877F2;
+    text-decoration: none;
+}
+
+
+.alert {
+    padding: 10px;
+    margin-top: 20px; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.alert.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
